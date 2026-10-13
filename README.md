@@ -43,7 +43,7 @@ Use um dispositivo ou emulador compatível com o ambiente Flutter configurado. A
 
 ## Execução das capturas
 
-A interface foi compilada com Flutter 2.10.5 após gerar um destino web somente na cópia local. As consultas de Salvador e Recife receberam respostas reais da API. As temperaturas nas imagens são valores daquele momento e não uma previsão permanente ou dados simulados.
+A interface foi compilada com Flutter 2.10.5 e CanvasKit após gerar um destino web somente na cópia local. As consultas de Salvador e Recife receberam respostas reais da API. Na coleta de 13/10/2026, a interface exibiu 22,47 °C para Salvador e 28,02 °C para Recife. A imagem de chuva é um recurso fixo do aplicativo; não comprova a condição meteorológica retornada. As temperaturas nas imagens são valores daquele momento e não uma previsão permanente ou dados simulados.
 
 ## Relação com outros projetos
 
@@ -51,7 +51,7 @@ Aplicativo independente. A fonte de dados é OpenWeatherMap; não há relação 
 
 ## Capturas do sistema
 
-Capturas reais obtidas em execução local em 12/10/2026.
+Capturas reais obtidas no navegador interno em 13/10/2026. Imagens móveis em **390 × 844 pixels**, mantendo a composição do aplicativo.
 
 ### Página inicial
 
@@ -59,7 +59,7 @@ Capturas reais obtidas em execução local em 12/10/2026.
 
 ### Busca por cidade
 
-![Busca por cidade](docs/screenshots/buscar-cidade.jpg)
+![Busca por cidade](docs/screenshots/busca.jpg)
 
 ### Clima consultado para Recife
 
